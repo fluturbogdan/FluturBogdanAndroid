@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".UserAreaActivity">
+
+   <item
+       android:id="@+id/add_site_and_comment"
+       android:icon="@drawable/ic_add_box_black_16dp"
+       android:title="add"
+       app:showAsAction="ifRoom" />
+
+    <item
+    android:id="@+id/send_email"
+    android:icon="@drawable/ic_send_black_16dp"
+    android:title="email"
+    app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/ic_mode_edit_black_16dp"
+        android:title="update"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/clear_all"
+        android:icon="@drawable/ic_panorama_vertical_black_24dp"
+        android:title="clear_all"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/display_chart"
+        android:icon="@drawable/ic_poll_black_16dp"
+        android:title="chart"
+        app:showAsAction="ifRoom" />
+
+</menu>
